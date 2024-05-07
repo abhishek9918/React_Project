@@ -16,6 +16,10 @@ import Contact from "./Components/Contact.jsx";
 import ContextApi from "./Components/useContext/ContextApi.jsx";
 import Themes from "./Components/Themes/Themes.jsx";
 import AddTodo from "./Components/Themes/BasicTodo/AddTodo.jsx";
+import UserDashboard from "./Components/CrudOperation/UserDashboard.jsx";
+import UserForm from "./Components/CrudOperation/UserForm.jsx";
+import ViewUser from "./Components/CrudOperation/ViewUser.jsx";
+import UserList from "./Components/CrudOperation/UserList.jsx";
 
 // const router = createBrowserRouter([
 //   {
@@ -46,6 +50,12 @@ const router = createBrowserRouter(
       <Route path="context" element={<ContextApi />} />
       <Route path="themes" element={<Themes />} />
       <Route path="add-todo" element={<AddTodo />} />
+      <Route path="userDashboard" element={<UserDashboard />} />
+      <Route path="user-forms" element={<UserForm />} />
+      <Route path="updateUser/:id" element={<UserForm />} />
+      <Route path="View" element={<ViewUser />} />
+      <Route path="View/:id" element={<ViewUser />} />
+      <Route path="userList" element={<UserList />} />
     </Route>
   )
 );

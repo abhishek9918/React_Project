@@ -36,43 +36,40 @@ function Home() {
         </div>
       </div> */}
 
-      <div class="relative bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[150px]">
-        <div class="container mx-auto">
-          <div class="flex flex-wrap items-center -mx-4">
-            <div class="w-full px-4 lg:w-5/12">
-              <div class="hero-content">
-                <h1 class="mb-5 text-4xl font-bold !leading-[1.208] text-black sm:text-[42px] lg:text-[40px] xl:text-5xl">
+      <div className="relative bg-white dark:bg-dark pt-[120px] pb-[110px] lg:pt-[150px]">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap items-center -mx-4">
+            <div className="w-full px-4 lg:w-5/12">
+              <div className="hero-content">
+                <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-black sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   The Greatest <br />
                   Journey Of Online <br />
                   Payment.
                 </h1>
-                <p class="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
+                <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
                   With TailGrids, business and students thrive together.
                   Business can perfectly match their staffing to changing demand
                   throughout the dayed.
                 </p>
-                <ul class="flex flex-wrap items-center">
+                <ul className="flex flex-wrap items-center">
                   <li>
-                    <a
-                      href="javascript:void(0)"
-                      class="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7"
-                    >
+                    <a className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-center text-white rounded-md bg-primary hover:bg-blue-dark lg:px-7">
                       Get Started
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="hidden px-4 lg:block lg:w-1/12"></div>
-            <div class="w-full px-4 lg:w-6/12">
-              <div class="lg:ml-auto lg:text-right">
-                <div class="relative z-10 inline-block pt-11 lg:pt-0">
+            <div className="hidden px-4 lg:block lg:w-1/12"></div>
+            <div className="w-full px-4 lg:w-6/12">
+              <div className="lg:ml-auto lg:text-right">
+                <div className="relative z-10 inline-block pt-11 lg:pt-0">
                   <img
                     src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
                     alt="hero"
-                    class="max-w-full lg:ml-auto"
+                    className="max-w-full lg:ml-auto"
                   />
-                  <span class="absolute -left-8 -bottom-8 z-[-1]">
+                  <span className="absolute -left-8 -bottom-8 z-[-1]">
                     <svg
                       width="93"
                       height="93"

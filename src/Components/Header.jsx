@@ -42,6 +42,16 @@ function Header() {
                 </li>
                 <li className="md:px-4 md:py-2 ">
                   <NavLink
+                    to="userDashboard"
+                    className={({isActive}) =>
+                      ` ${isActive ? "text-red-500" : "text-orange-500"}`
+                    }
+                  >
+                    User
+                  </NavLink>
+                </li>
+                <li className="md:px-4 md:py-2 ">
+                  <NavLink
                     to="/about"
                     element={<About />}
                     className={({isActive}) =>

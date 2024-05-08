@@ -13,7 +13,7 @@ function UserDashboard() {
   useEffect(() => {
     console.log("data");
     setFetched(true);
-    fetch("http://localhost:3000/users")
+    fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => {
         return res.json();
       })

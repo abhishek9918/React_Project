@@ -47,7 +47,7 @@ function Header() {
                       ` ${isActive ? "text-red-500" : "text-orange-500"}`
                     }
                   >
-                    User
+                    Crud
                   </NavLink>
                 </li>
                 <li className="md:px-4 md:py-2 ">
